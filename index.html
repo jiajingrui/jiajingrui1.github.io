@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<meta name="viewport" content="width=device-width,initial-scale=1"/>-->
+		<style>
+		
+			body{
+				font-size:65% ;
+				font-family: "微软雅黑";
+			}
+			div{
+				width: 32%;
+				height:48rem;
+				float: left;
+				margin-left:0.8% ;
+				position: relative;
+				overflow: hidden;
+				-moz-perspective: 100rem;
+			}
+			#dk{
+				border: 0;
+				width: 80%;
+				position: relative;
+				margin-left: 10%;
+				z-index: 5;
+				animation: shua 2s forwards linear; right: -20%;
+			}
+			@-moz-keyframes shua{
+				100%{right: 0; }
+			}
+			#zl{
+				z-index: 2;
+				border: 0;
+				width: 100%;
+				height: 80rem;
+				position: relative;
+				top: 100%;
+				background: #FFC0CB;
+			}
+			
+			
+			#zy{
+				height: 31%;
+				width: 100%;
+				border: 0;
+				position: relative;
+				overflow: hidden;
+			}
+			/*11111111111111111111111*/
+			#div1{
+				border: 0;
+				font-size: 350%;
+				width: 100%;
+				height: 100%;
+				margin-top: 3%;
+				position: relative;
+				left:3.6% ;
+				overflow: hidden;
+			}
+			#zy p{
+				transition: all 2s;
+				margin: 0 auto;
+				position: absolute;
+				top: 0;
+				text-align:center ;
+				height: 100%;
+				width: 90%;
+				color: darkmagenta;
+				background: aquamarine;
+				line-height: 15rem;
+			}
+			#div1 p:last-child{
+				
+				top: 100%;
+			}
+			#div1:hover p:first-child{
+				top: -100%;
+				background: orangered;
+			}
+			#div1:hover p:last-child{
+				top: 0;
+				background: orangered;
+				color: darkblue;
+			}
+			/*222222222222222222222*/
+			#kap{
+				border: 0;
+				height: 32%;
+				width: 100%;
+				border: 0;
+				position: relative;
+				margin-top: 2%;
+			}
+			#div2{
+				border: 0;
+				font-size: 350%;
+				width: 90%;
+				height: 100%;
+				margin-top: 3%;
+				position: relative;
+				left:3.6% ;
+				background:url(img/5.jpg) no-repeat;
+				background-size:100% ;
+				overflow: hidden;
+			}
+			#div2 p{
+				transition: all 1s;
+				padding-left:1rem ;
+				padding-right:1rem ;
+				font-size: 80%;
+				width: 45%;
+				height: 100%;
+				background:black;
+				color: whitesmoke;
+				text-align: center;
+				line-height: 3.5rem;
+				position: relative;
+				left: -100%;
+			}
+			#div2:hover p{
+				left: 0;
+			}
+			/*33333333333333333*/
+			#bs{
+				border: 0;
+				height: 30%;
+				width: 100%;
+				border: 0;
+				position: relative;
+				margin-top: 2%;
+			}
+			#div3{
+				border: 0;
+				font-size: 300%;
+				width: 90%;
+				height: 100%;
+				margin-top: 3%;
+				position: relative;
+				left:3.6% ;
+				background:wheat;
+				color: orange;
+				background-size:100% ;
+				overflow: hidden;
+				text-align: center;
+				line-height: 8rem;
+				transition: all 2s;
+			}
+			#div3:hover{
+				background: orangered;
+				color:wheat ;
+			}
+			#orll{
+				border: 0;
+				height: 31%;
+				width: 100%;
+				border: 0;
+				position: relative;
+				transition: all 2s;
+			}
+			#div4{
+				border: 0;
+				font-size: 300%;
+				width: 90%;
+				height: 100%;
+				margin-top: 3%;
+				position: relative;
+				left:3.6% ;
+				background:wheat;
+				color: orange;
+				background-size:100% ;
+				overflow: hidden;
+				text-align: center;
+				line-height: 8rem;
+				transform-origin: 50% 50%;	
+			}
+			#orll:hover{
+				transform: rotateX(180deg);
+			}
+			#orll2{
+				border: 0;
+				height: 32%;
+				width: 100%;
+				border: 0;
+				position: relative;
+				transition: all 2s;
+				top: 2%;
+			}
+			#div5{
+				border: 0;
+				font-size: 300%;
+				width: 90%;
+				height: 100%;
+				margin-top: 3%;
+				position: relative;
+				left:3.6% ;
+				background:wheat;
+				color: orange;
+				background-size:100% ;
+				overflow: hidden;
+				text-align: center;
+				line-height: 8rem;
+				transform-origin: 50% 50%;	
+			}
+			#div5 p{
+				backface-visibility: hidden;
+			}
+			#orll2:hover{
+				transform: rotateY(180deg);
+			}
+			#bs2{
+				border: 0;
+				height: 30%;
+				width: 100%;
+				border: 0;
+				position: relative;
+				top: 3%;
+				margin-bottom: 3%;
+			}
+			#div6{
+				border: 0;
+				font-size: 300%;
+				width: 90%;
+				height: 100%;
+				margin-top: 3%;
+				position: relative;
+				left:3.6% ;
+				background:aquamarine;
+				color: black;
+				background-size:100% ;
+				overflow: hidden;
+				text-align: center;
+				line-height: 8rem;
+				transition: all 2s;
+			}
+			#div6:hover{
+				background: black;
+				color:aquamarine ;
+			}
+		</style>
+		<link rel="shortcut icon" href="img/8.png"/>
+		<meta name="author" content="mayun" />
+		<meta name="keywords" content="淘宝，网上购物"/>
+		<meta name="description" content="最好"/>
+		<link href="css/reset.css" type="text/css" rel="stylesheet" />
+		<link type="text/css" href="css/media500.css" media="screen and (max-width:500px)" rel="stylesheet" />
+		<link type="text/css" href="css/media_500_1024.css" media="screen and (min-width:500px) and (max-width:1024px)" rel="stylesheet" />
+		<link type="text/css" href="css/media_1024.css" media="screen and (min-width:1024px)" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="dk">
+			<div id="dyk">
+				<div id="zy">
+					<div id="div1">
+						<p>WINDOW 8</p>
+						<p>全新界面，给你不一样的视觉体验。</p>
+					</div>
+				</div>
+				<div id="kap">
+					<div id="div2">
+						<p>全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+				<div id="bs">
+					<div id="div3">
+						<p>♔☁  - 全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div id="dek">
+				<div id="orll">
+					<div id="div4">
+						<p>♔☁  - 全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+				<div id="orll2">
+					<div id="div5">
+						<p>♔☁  - 全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+						<p>♔☁  - 全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+				<div id="bs2">
+					<div id="div6">
+						<p>♔☁  - 全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			<!--33333333333333-->
+			<div id="dsk">
+				<div id="orll">
+					<div id="div4">
+						<p>♔☁  - 全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+				<div id="bs2">
+					<div id="div6">
+						<p>♔☁  - 全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+				<div id="kap">
+					<div id="div2">
+						<p>全新界面，给你不一样的视觉体验。时尚界面为你亲历打造。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="zl"></div>
+	</body>
+</html>
